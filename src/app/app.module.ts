@@ -10,6 +10,10 @@ import { VisitasComponent } from './visitas/visitas.component';
 import { EmpleadosComponent } from './empleados/empleados.component';
 import { apiService } from './login/api.service';
 import { FormsModule } from '@angular/forms';
+import { ClientesComponent } from './clientes/clientes.component';
+import { SVisitasComponent } from './s-visitas/s-visitas.component';
+import { ReportesComponent } from './reportes/reportes.component';
+import { ConfiguracionesComponent } from './configuraciones/configuraciones.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     InicioComponent,
     VisitasComponent,
-    EmpleadosComponent
+    EmpleadosComponent,
+    ClientesComponent,
+    SVisitasComponent,
+    ReportesComponent,
+    ConfiguracionesComponent
   ],
   imports: [
     BrowserModule,

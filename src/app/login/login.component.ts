@@ -20,8 +20,11 @@ export class LoginComponent implements OnInit {
     correo: '',
     password: ''
   }
+
   authUser() {
-    if (this.body.correo !== '' && this.body.password !== '')
+
+    this.router.navigate(['/Inicio'])
+  /*  if (this.body.correo !== '' && this.body.password !== '')
       try {
         this.api.auth(this.body).subscribe((data: any) => {
           if (data.id === 1) {
@@ -35,7 +38,7 @@ export class LoginComponent implements OnInit {
         });
       } catch (err) {
 
-      }
+      }*/
 
   }
 

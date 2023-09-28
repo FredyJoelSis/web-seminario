@@ -1,1 +1,82 @@
-<p>inicio works!</p>
+<div class="container mt-5 ">
+  
+    <div class="mb-4">
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <div class="d-flex justify-content-evenly align-items-center"> <!-- Añadir align-items-center para centrar verticalmente -->
+              <label for="">FREDY SIS</label>
+              <button class="btn btn-warning mx-2" type="submit">Cerrar Sesión</button> <!-- Agregar mx-2 para espacio horizontal -->
+            </div>
+          </div>
+          
+      </nav>
+      <!-- <button class="btn btn-secondary" style="position: fixed; top: 20px; left: 20px;">Cerrar Sesion</button> -->
+    </div>
+    <div class="row d-flex justify-content-around">
+  
+        <div class="card" style="width: 18rem;" role="button" (click)="aggClientes()">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoDs3lg3MwVdFdcAqYWF9nCN93llUgk4a8Vy4GRMOyKVupC-kX" class="card-img-top" alt="..." width="100" height="260">
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">CLIENTES</h5>
+    
+            </div>
+          </div>
+          
+    
+      <div class="card" style="width: 18rem;" role="button" (click)="aggEmpleados()">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWBeH0gfSr2Z082q-KeIrES7u5xHBZTv0qIKiC73vPfdaUfEeE" class="card-img-top" alt="..." width="100" height="260">
+        <div class="card-body">
+          <h5 class="card-title text-center text-warning">EMPLEADOS</h5>
+          <!-- <p class="card-text">Añade, modifica o elimina servicios del hospital</p> -->
+
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;" role="button" (click)="programarVisita()">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNJ5HESlDt2bgFKXGXqQHPCwC3FK-4ShURfQYpbmExUHy_mXZN" class="card-img-top" alt="..." width="100" height="260">
+        <div class="card-body">
+          <h5 class="card-title text-center text-warning">VISITAS</h5>
+          <!-- <p class="card-text">Añade, modifica o elimina productos y medicinas para registrar movimientos</p> -->
+
+        </div>
+      </div>
+  
+    </div>
+    
+  <div class="row d-flex justify-content-around mt-5 mb-5" (click)="solicitudVisitas()">
+  
+    <div class="card" style="width: 18rem;" role="button">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyoXeLZvsFHHlrEtno5YCTkPzImUkg127cGswBq82aOUOhqMn7" class="card-img-top" alt="..." width="100" height="260">
+      <div class="card-body">
+        <h5 class="card-title text-center text-warning">SOLICITUD DE VISITAS</h5>
+        <!-- <p class="card-text">Agrega productos al inventario</p> -->
+
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;" role="button" (click)="genReportes()">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiUVTMpbPXkwhvNrRMxzdvb-PJHebdK_g_ynjO0FFm5bNuuXwL" class="card-img-top" alt="..." width="100" height="260">
+      <div class="card-body">
+        <h5 class="card-title text-center text-warning">REPORTES</h5>
+        <!-- <p class="card-text">Registra el despacho de productos</p> -->
+
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;" role="button" (click)="configuraciones()">
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwr_UysB_ZsufUw2guKALqbNY0b0uCkPbcO6NxhjPY5IprY9gF" class="card-img-top" alt="..." width="100" height="260">
+      <div class="card-body">
+        <h5 class="card-title text-center text-warning">CONFIGURACIONES</h5>
+        <!-- <p class="card-text">Ajusta cantidades de inventario, suma o resta.</p> -->
+
+      </div>
+    </div>
+  
+    
+  </div> 
+  </div>
+
+  
+  
+ 

@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 
 @Component({
-  selector: 'app-empleados',
-  templateUrl: './empleados.component.html'
+  selector: 'app-clientes',
+  templateUrl: './clientes.component.html'
 })
-export class EmpleadosComponent implements OnInit {
+export class ClientesComponent implements OnInit {
 
   constructor(private router: Router) { }
 
@@ -15,6 +15,4 @@ export class EmpleadosComponent implements OnInit {
   inicio(){
     this.router.navigate(['/Inicio'])
   }
-
-
 }
